@@ -1,106 +1,105 @@
 @font-face {
-    font-family:'Pancakes and Whipcream';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Pancakes and Whipcream'), url('Pancakes-and-Whipcream.woff') format('woff');
+  font-family: "Pancakes and Whipcream";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Pancakes and Whipcream"),
+    url("Pancakes-and-Whipcream.woff") format("woff");
 }
 
 body {
-    text-align: center;
-    background: linear-gradient(#BFFFCF, #FFAB68);
-    font-family:'Pancakes and Whipcream';
-    color: #603c20;
-    font-size: 28px;
+  text-align: center;
+  background: linear-gradient(#bfffcf, #ffab68);
+  font-family: "Pancakes and Whipcream";
+  color: #603c20;
+  font-size: 28px;
 }
 
-
 #bff-img {
-    width: 230px;
-    border-radius: 50%;
-    border: 6px solid #FFAD6B;
-    margin-bottom: 10px;
+  width: 350px;
+  border-radius: 50%;
+  border: 6px solid #ffad6b;
+  margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #FFAD6B;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin: 5px 0 10px 0;
+  background: #ffad6b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
 }
 
 #bday-date {
-    margin: 0;
-    background: #FFAD6B;
-    padding: 5px 10px;
-    border-radius: 5px;
+  margin: 0;
+  background: #ffad6b;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 #header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .gift-section {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .gift-title {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .gift-hint {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #gift-img-cheers {
-    height: 200px;
+  height: 200px;
 }
 
 .gift-img {
-    margin: 20px auto;
-    max-width: 400px;
-    height: 400px;
-    border: 6px solid white;
-    border-radius: 10px;
-    background-image: url("images/gift-cover.jpg");
-    background-size: cover;
+  margin: 20px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover;
 }
 
 #gift-img-happy:hover {
-    background-image: url("https://media.giphy.com/media/S9i8jJxTvAKVHVMvvW/giphy.gif");
-    background-size: 400px 400px;
-    
+  background-image: url("https://media.giphy.com/media/S9i8jJxTvAKVHVMvvW/giphy.gif");
+  background-size: 400px 400px;
 }
 
 #gift-img-hot:hover {
-    background-image: url("https://media.giphy.com/media/zz00w5nNFMnPq/giphy.gif");
-    background-size: 400px 400px;
+  background-image: url("https://media.giphy.com/media/zz00w5nNFMnPq/giphy.gif");
+  background-size: 400px 400px;
 }
 
 #gift-img-genius:hover {
-    background-image: url("https://media.giphy.com/media/2Vp0UxNcA8TEQ/giphy.gif");
-    background-size: 400px 400px;
+  background-image: url("https://media.giphy.com/media/2Vp0UxNcA8TEQ/giphy.gif");
+  background-size: 400px 400px;
 }
 
 #gift-img-badass:hover {
-    background-image: url("https://media.giphy.com/media/kTeNaCZW8wQrC/giphy.gif");
+  background-image: url("https://media.giphy.com/media/kTeNaCZW8wQrC/giphy.gif");
 }
 
 #gift-img-cheers:hover {
-    background-image: url("https://media.giphy.com/media/l1uga8ObPBnIBoXUQ/giphy.gif");
-    background-size: 400px 200px;
+  background-image: url("https://media.giphy.com/media/l1uga8ObPBnIBoXUQ/giphy.gif");
+  background-size: 400px 200px;
 }
 
 #footer {
-    font-style: italic;
-    font-size: 25px;
-    width: 400px;
-    margin: 40px auto 20px;
+  font-style: italic;
+  font-size: 25px;
+  width: 400px;
+  margin: 40px auto 20px;
 }
 
 a {
-    color: #603c20;
+  color: #603c20;
 }
 
 /* 
